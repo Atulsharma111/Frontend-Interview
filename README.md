@@ -58,7 +58,7 @@ Here's a reference design for the blog application layout:
 ![Blog Reference](image.png)
 
 **Left Panel:** Blog list view showing blog cards with category, title, and description  
-**Right Panel:** Blog detail view displaying cover image, full content, and tags
+**Right Panel:** Blog detail view displaying cover image, full content
 
 UI IMAGE - ![UI-refernece](ui.jpeg)
 
@@ -113,14 +113,16 @@ Your submission will be evaluated on:
 {
   "id": 1,
   "title": "Future of Fintech",
-  "category": "FINANCE",
+  "category": ["FINANCE", "TECH"],
   "description": "Exploring how AI and blockchain are reshaping financial services",
-  "date": "2 days ago",
-  "tag": "Featured",
-  "coverImage": "https://placehold.co/800x400/6366f1/white?text=Future+of+Fintech",
+  "date": "2026-01-11T09:12:45.120Z",
+  "coverImage": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
   "content": "Full blog content..."
 }
 ```
+
+description: A short summary of the blog  
+content: The full content of the blog
 
 ## Tips
 
